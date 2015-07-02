@@ -18,18 +18,31 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+<div class="container text-center">
 
-<form action="./index.php">
-    <div class="btn-group" role="group" aria-label="...">
-    <button type="submit" formmethod="get" value="l1_on" name="thing" class="btn btn-default"> l1_on </button>
-    <button type="submit" formmethod="get" value="l1_off" name="thing" class="btn btn-default"> l1_off </button>
-    </div>
-    <button type="submit" formmethod="get" value="l2_on" name="thing"> l2_on </button>
-    <button type="submit" formmethod="get" value="l2_off" name="thing"> l2_off </button>
-    <button type="submit" formmethod="get" value="l3_on" name="thing"> l3_on </button>
-    <button type="submit" formmethod="get" value="l3_off" name="thing"> l3_off </button>
-</form>
+    <form action="./index.php">
+        <div class="row">
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                <button type="submit" formmethod="get" value="l1_on" name="thing" class="btn btn-success"> l1_on </button>
+                <button type="submit" formmethod="get" value="l1_off" name="thing" class="btn btn-danger"> l1_off </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                <button type="submit" formmethod="get" value="l2_on" name="thing" class="btn btn-success"> l2_on </button>
+                <button type="submit" formmethod="get" value="l2_off" name="thing" class="btn btn-danger"> l2_off </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                <button type="submit" formmethod="get" value="l3_on" name="thing" class="btn btn-success"> l3_on </button>
+                <button type="submit" formmethod="get" value="l3_off" name="thing" class="btn btn-danger"> l3_off </button>
+            </div>
+        </div>
+    </form>
+<h1>
+
 <?php
 
 //$command = excapeshellcmd('/Applications/MAMP/htdocs/main.py');
@@ -39,6 +52,8 @@ $output = shell_exec('sudo /var/www/main.py ' . $thing);
 echo $output;
 
 ?>
+</h1>
+</div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
