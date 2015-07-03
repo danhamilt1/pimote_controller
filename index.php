@@ -22,34 +22,54 @@
 
     <form action="./index.php">
         <div class="row">
-            <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                <button type="submit" formmethod="get" value="l1_on" name="thing" class="btn btn-success"> l1_on </button>
-                <button type="submit" formmethod="get" value="l1_off" name="thing" class="btn btn-danger"> l1_off </button>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l1_on" name="thing" class="btn btn-success"> Desk on </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l1_off" name="thing" class="btn btn-danger"> Desk off </button>
+                </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                <button type="submit" formmethod="get" value="l2_on" name="thing" class="btn btn-success"> l2_on </button>
-                <button type="submit" formmethod="get" value="l2_off" name="thing" class="btn btn-danger"> l2_off </button>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l2_on" name="thing" class="btn btn-success"> Lamp on </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l2_off" name="thing" class="btn btn-danger"> Lamp off </button>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                <button type="submit" formmethod="get" value="l3_on" name="thing" class="btn btn-success"> l3_on </button>
-                <button type="submit" formmethod="get" value="l3_off" name="thing" class="btn btn-danger"> l3_off </button>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l3_on" name="thing" class="btn btn-success"> TV on </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l3_off" name="thing" class="btn btn-danger"> TV off </button>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                <button type="submit" formmethod="get" value="l4_on" name="thing" class="btn btn-success"> l4_on </button>
-                <button type="submit" formmethod="get" value="l4_off" name="thing" class="btn btn-danger"> l4_off </button>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l4_on" name="thing" class="btn btn-success"> l4_on </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="l4_off" name="thing" class="btn btn-danger"> l4_off </button>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                <button type="submit" formmethod="get" value="all_on" name="thing" class="btn btn-success"> all_on </button>
-                <button type="submit" formmethod="get" value="all_off" name="thing" class="btn btn-danger"> all_off </button>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="all_on" name="thing" class="btn btn-success"> All on </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="submit" formmethod="get" value="all_off" name="thing" class="btn btn-danger"> All off </button>
+                </div>
             </div>
         </div>
     </form>
