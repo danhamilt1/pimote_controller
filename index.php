@@ -40,6 +40,18 @@
                 <button type="submit" formmethod="get" value="l3_off" name="thing" class="btn btn-danger"> l3_off </button>
             </div>
         </div>
+        <div class="row">
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                <button type="submit" formmethod="get" value="l4_on" name="thing" class="btn btn-success"> l4_on </button>
+                <button type="submit" formmethod="get" value="l4_off" name="thing" class="btn btn-danger"> l4_off </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                <button type="submit" formmethod="get" value="all_on" name="thing" class="btn btn-success"> all_on </button>
+                <button type="submit" formmethod="get" value="all_off" name="thing" class="btn btn-danger"> all_off </button>
+            </div>
+        </div>
     </form>
 <h1>
 
